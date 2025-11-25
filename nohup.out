@@ -1,0 +1,38 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.178.0.3:8501
+  External URL: http://34.64.196.60:8501
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.178.0.3:8501
+  External URL: http://34.64.196.60:8501
+
+  Stopping...
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/sklearn/base.py:458: UserWarning: X has feature names, but PCA was fitted without feature names
+  warnings.warn(
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/sklearn/base.py:458: UserWarning: X has feature names, but LinearDiscriminantAnalysis was fitted without feature names
+  warnings.warn(
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/pytorch_tabnet/abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/pytorch_tabnet/abstract_model.py:454: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  saved_state_dict = torch.load(f, map_location=self.device)
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/sklearn/base.py:458: UserWarning: X has feature names, but PCA was fitted without feature names
+  warnings.warn(
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/sklearn/base.py:458: UserWarning: X has feature names, but LinearDiscriminantAnalysis was fitted without feature names
+  warnings.warn(
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/pytorch_tabnet/abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+/home/hellopur/miniconda3/envs/thyroidCancer/lib/python3.8/site-packages/pytorch_tabnet/abstract_model.py:454: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  saved_state_dict = torch.load(f, map_location=self.device)
